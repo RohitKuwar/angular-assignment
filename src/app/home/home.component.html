@@ -1,0 +1,26 @@
+<style>
+  nav ul {
+    list-style-type: none;
+  }
+  nav ul li {
+    display: inline;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  a {
+  text-decoration: none;
+  }
+</style>
+<nav>
+  <ul>
+    <li>
+      <a routerLink="home">Home</a>
+    </li>
+    <li>
+      <a routerLink="/user">User</a>
+    </li>
+  </ul>
+</nav>
+<h1>Rohit Kuwar is logged in</h1>
+<button><a routerLink="/user">Go to Users</a></button>
+<router-outlet></router-outlet>
